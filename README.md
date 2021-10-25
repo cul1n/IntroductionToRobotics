@@ -12,6 +12,8 @@ Installing Arduino IDE and creating a repository for this course.
 
 Task Requirements: Use a separate potentiometer in controlling each of the color of the RGB LED. The control must be done with digital electronics.
 
-Setup:
+Componenets used: RGB LED, 3 potentiometers, 3 resistors (330 ohm) and wires.
+
+Setup: ![Setup 1](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework1.jpeg)
 
 Video: https://youtu.be/Es6KPtZ223A
