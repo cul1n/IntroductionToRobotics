@@ -36,3 +36,13 @@ Components used: 5 LEDs, 1 button, 1 buzzer, 6 resistors (5 x 330 ohm and 1 x 10
 Setup: ![Setup 2](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework2.jpeg)
 
 Video: https://youtu.be/JCdbuBRL7vs
+
+### Homework #3 :
+
+Task Requirements: Build an EMF detector (aka a ghost detector). The EMF detector should print the value on the 7-segment display and should make a sound based on the intensity.
+
+Components used: 7-segment display, 1 buzzer, 7 resistors (1 x 100 ohm, 2 x 1k ohm , 4 x 1M ohm) and wires.
+
+Setup: ![Setup 3](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework3.jpeg)
+
+Video: https://youtu.be/nn8UQ7oQ1_4
