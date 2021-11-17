@@ -4,10 +4,10 @@ Making cool robots, [hopefully](https://www.youtube.com/watch?v=sa9MpLXuLs0)?
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. Each homework includes requirements, implementation details, code and image files.
 
 # Homeworks
-### Homework #0 :
+### Homework #0 : Creating The Repository
 Installing Arduino IDE and creating a repository for this course.
 
-### Homework #1 :
+### Homework #1 : RGB LED Controller
 
 Task Requirements: Use a separate potentiometer in controlling each of the color of the RGB LED. The control must be done with digital electronics.
 
@@ -17,7 +17,7 @@ Setup: ![Setup 1](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setu
 
 Video: https://youtu.be/Es6KPtZ223A
 
-### Homework #2 :
+### Homework #2 : Traffic Light Simulator
 
 Task Requirements: Building the traffic lights for a crosswalk. You will use 2 Leds to represent the traffic lights for people (red and green) and 3 LEDs to represent the traffic lights for cars (red, yellow and green).
 
@@ -37,7 +37,7 @@ Setup: ![Setup 2](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setu
 
 Video: https://youtu.be/JCdbuBRL7vs
 
-### Homework #3 :
+### Homework #3 : EMF Detector
 
 Task Requirements: Build an EMF detector (aka a ghost detector). The EMF detector should print the value on the 7-segment display and should make a sound based on the intensity.
 
@@ -46,3 +46,19 @@ Components used: 7-segment display, 1 buzzer, 7 resistors (1 x 100 ohm, 2 x 1k o
 Setup: ![Setup 3](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework3.jpeg)
 
 Video: https://youtu.be/nn8UQ7oQ1_4
+
+### Homework #4 : 4-Digit 7-Segment Display Controller 
+
+Task Requirements: The current homework involves using a joystick in setting the values on each digit of a 4-digit 7-segment display connected to a shift register 74hc595. For maximum grade, you muse use interrupts, and for bonus you can save the last value in eeprom.
+
+The system has the following states:
+
+1. First state: you can use a joystick axis to cycle through the 4 digits; using the other axis does nothing. A blinking decimal point shows the current digit position. When pressing the button (must use interrupt for maximum points!), you lock in on the selected digit and enter the second state.
+
+2. Second state: the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the 4 digits. Instead, using the other axis, you can increment on decrement the numberon the current digit. Pressing the button again returns you to the previous state. Also, keep in mind that when changing the number, you must increment it for each joystick movement - it should not work continuosly if you keep the joystick in one position.
+
+Components used: A joystick, a 4-digit 7-segment display, a 74hc595 shift register, 4 resistors (100 Ohm) and wires.
+
+Setup: ![Setup 4](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework4.jpeg)
+
+Video: https://youtu.be/nMzpSGedtyY
