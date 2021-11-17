@@ -57,7 +57,7 @@ The system has the following states:
 
 2. Second state: the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the 4 digits. Instead, using the other axis, you can increment on decrement the numberon the current digit. Pressing the button again returns you to the previous state. Also, keep in mind that when changing the number, you must increment it for each joystick movement - it should not work continuosly if you keep the joystick in one position.
 
-Components used: A joystick, a 4-digit 7-segment display, a 74hc595 shift register, 4 resistors (100 Ohm) and wires.
+Components used: A joystick, a 4-digit 7-segment display, a 74hc595 shift register, 4 resistors (330 ohm) and wires.
 
 Setup: ![Setup 4](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework4.jpeg)
 
