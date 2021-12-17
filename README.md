@@ -15,19 +15,19 @@ Componenets used: RGB LED, 3 potentiometers, 3 resistors (330 ohm) and wires.
 
 Setup: ![Setup 1](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework1.jpeg)
 
-Video: https://youtu.be/Es6KPtZ223A
+Video: <a href="https://youtu.be/Es6KPtZ223A" target="_blank">Link</a>
 
 ### Homework #2 : Traffic Light Simulator
 
-Task Requirements: Building the traffic lights for a crosswalk. You will use 2 Leds to represent the traffic lights for people (red and green) and 3 LEDs to represent the traffic lights for cars (red, yellow and green).
+Task Requirements: Build the traffic lights for a crosswalk using 2 LEDs to represent the traffic lights for people (red and green) and 3 LEDs to represent the traffic lights for cars (red, yellow and green).
 
 The system has the following states:
 
-1. State 1 (default, reinstated after state 4 ends): green light for cars, red light for people, no sounds. Duration: indefinite,  changed by pressing the button.
+1. State 1 (default, reinstated after state 4 ends): green light for cars, red light for people, no sounds. Duration: indefinite, changed by pressing the button.
 
 2. State 2 (initiated by counting down 10 seconds after a button press): the light should be yellow for cars, red for people and no sounds. Duration: 3 seconds.
 
-3. State 3 (iniated after state 2 ends): red for cars, green for people anda beeping sound from the buzzer at a constant interval.  Duration: 10 seconds.
+3. State 3 (iniated after state 2 ends): red for cars, green for people and a beeping sound from the buzzer at a constant interval. Duration: 10 seconds.
 
 4. State 4 (initiated after state 3 ends): red for cars, blinking green for people and a beeping sound from the buzzer, at a constant interval, faster than the beeping in state 3. This state should last 5 seconds.
 
@@ -35,7 +35,7 @@ Components used: 5 LEDs, 1 button, 1 buzzer, 6 resistors (5 x 330 ohm and 1 x 10
 
 Setup: ![Setup 2](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework2.jpeg)
 
-Video: https://youtu.be/JCdbuBRL7vs
+Video: <a href="https://youtu.be/JCdbuBRL7vs" target="_blank">Link</a>
 
 ### Homework #3 : EMF Detector
 
@@ -45,20 +45,20 @@ Components used: 7-segment display, 1 buzzer, 7 resistors (1 x 100 ohm, 2 x 1k o
 
 Setup: ![Setup 3](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework3.jpeg)
 
-Video: https://youtu.be/nn8UQ7oQ1_4
+Video: <a href="https://youtu.be/nn8UQ7oQ1_4" target="_blank">Link</a>
 
 ### Homework #4 : 4-Digit 7-Segment Display Controller 
 
-Task Requirements: The current homework involves using a joystick in setting the values on each digit of a 4-digit 7-segment display connected to a shift register 74hc595. For maximum grade, you muse use interrupts, and for bonus you can save the last value in eeprom.
+Task Requirements: The current homework involves using a joystick in setting the values on each digit of a 4-digit 7-segment display connected to a shift register 74hc595. Switching between states must be implemented by using interrupt and the last value displayed on the screen is saved using EEPROM.
 
 The system has the following states:
 
-1. First state: you can use a joystick axis to cycle through the 4 digits; using the other axis does nothing. A blinking decimal point shows the current digit position. When pressing the button (must use interrupt for maximum points!), you lock in on the selected digit and enter the second state.
+1. First state: you can use a joystick axis to cycle through the 4 digits; using the other axis does nothing. A blinking decimal point shows the current digit position. When pressing the button, you lock in on the selected digit and enter the second state.
 
-2. Second state: the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the 4 digits. Instead, using the other axis, you can increment on decrement the numberon the current digit. Pressing the button again returns you to the previous state. Also, keep in mind that when changing the number, you must increment it for each joystick movement - it should not work continuosly if you keep the joystick in one position.
+2. Second state: the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the 4 digits. Instead, using the other axis, you can increment on decrement the number on the current digit (doesn't work continuosly if you keep the joystick in one position). Pressing the button again returns you to the previous state.
 
 Components used: A joystick, a 4-digit 7-segment display, a 74hc595 shift register, 4 resistors (330 ohm) and wires.
 
 Setup: ![Setup 4](https://github.com/cul1n/IntroductionToRobotics/blob/main/Setups/Homework4.jpeg)
 
-Video: https://youtu.be/nMzpSGedtyY
+Video: <a href="https://youtu.be/nMzpSGedtyY" target="_blank">Link</a>
